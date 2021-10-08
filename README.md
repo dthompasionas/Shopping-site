@@ -32,9 +32,9 @@ send pull request to be reviewed
 
 # Screenshot:
 
-![](./public/assets/shopping-home.png)
+![](./shopping-site/src/assets/shopping-home.png)
 
-![](./public/assets/shopping-cart.png)
+![](./shopping-site/src/assets/shopping-cart.png)
 
 # Questions
 Contact me with any questions here:
