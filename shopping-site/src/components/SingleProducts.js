@@ -10,7 +10,7 @@ const SingleProducts = ({prod}) => {
     return (
         <div className='products'>
             <Card>
-                <Card.Img variant='top' src={prod.image} alt={prod.namr}/>
+                <Card.Img variant='top' src={prod.image} alt={prod.namr} />
                 <Card.Body>
                     <Card.Title>{prod.name}</Card.Title>
                     <Card.Subtitle style={{ paddingBottom: 10 }}>

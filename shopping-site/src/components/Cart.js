@@ -3,6 +3,9 @@ import { Button, Col, Form, ListGroup, Row, Image } from "react-bootstrap";
 import Rating from "./Rating";
 import { CartState } from "../context/Context";
 import { AiFillDelete } from "react-icons/ai";
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements } from '@stripe/react-stripe-js';
+import CheckoutForm from './Form';
 
 const Cart = () => {
   const {
@@ -21,6 +24,7 @@ const Cart = () => {
   return (
     <div className="home">
       <div className="productContainer">
+        {cart.length === 0 && 'There is nothing in your cart'}
         <ListGroup>
           {cart.map((prod) => (
             <ListGroup.Item key={prod.id}>
@@ -76,9 +80,22 @@ const Cart = () => {
       <div className="filters summary">
         <span className="title">Subtotal ({cart.length}) items</span>
         <span style={{ fontWeight: 700, fontSize: 20 }}>Total: $ {total}</span>
-        <Button type="button" disabled={cart.length === 0}>
+        {/* <Button type="button" disabled={cart.length === 0}>
           Proceed to Checkout
-        </Button>
+        </Button> */}
+        
+        <div className='form'>
+        {
+          cart.length > 0 && (
+            <>
+              <Elements stripe = {loadStripe('pk_test_YoIla19gb6UPKlWc8ZPB7Zio')} >
+                <CheckoutForm/>
+              </Elements>
+            </>
+          )
+        }
+        </div>
+
       </div>
     </div>
   );

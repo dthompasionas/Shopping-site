@@ -18,7 +18,8 @@
     flex-direction: column;
     width: 20%;
     margin: 10px;
-    height: 86vh;
+    height: 80vh;
+    border-radius: 20px;
 }   
 
 .filters > span {
@@ -44,6 +45,17 @@
 
 }
 
+.card {
+    border-radius: 20px !important;
+    box-shadow: 10px 1px 25px;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
 .cartItemImg {
     border-radius: 50px;
     width: 50px;
@@ -60,6 +72,24 @@
 
 .summary {
     width: 30%;
+}
+
+
+.formContainer {
+    margin-top: 20px;
+
+}
+
+.card-input {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.pay-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 @media (max-width: 771px) {
