@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Form, ListGroup, Row, Image } from "react-bootstrap";
 import Rating from "./Rating";
-import { CartState } from "../../shopping-site/src/context/Context";
+import { CartState } from "../context/Context";
 import { AiFillDelete } from "react-icons/ai";
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements } from '@stripe/react-stripe-js';
