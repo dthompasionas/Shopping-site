@@ -50,3 +50,14 @@
     height: 50px;
     object-fit: cover;
 }
+
+.cartItemDetail {
+    display: flex;
+    flex: 1;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.summary {
+    width: 30%;
+}
