@@ -1,6 +1,9 @@
 # Shopping-site 
 
-https://github.com//Shopping-site
+https://github.com/dthompasionas/Shopping-site/tree/main
+
+Deployed: https://random-shopping.herokuapp.com/
+
 
 # Description
 A site showing products added to cart with a checkout.
@@ -32,9 +35,9 @@ send pull request to be reviewed
 
 # Screenshot:
 
-![](./shopping-site/src/assets/shopping-home.png)
+![](./src/assets/shopping-home.png)
 
-![](./shopping-site/src/assets/shopping-cart.png)
+![](./src/assets/shopping-cart.png)
 
 # Questions
 Contact me with any questions here:
