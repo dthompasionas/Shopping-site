@@ -2,6 +2,8 @@
 
 https://github.com//Shopping-site
 
+Deployed page: https://random-shopping.herokuapp.com/
+
 # Description
 A site showing products added to cart with a checkout.
 
