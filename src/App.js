@@ -9,10 +9,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <div>
-        <Route path="/" exact>
+        <Route path="/" exact component={Home}>
           <Home />
         </Route>
-        <Route path="/cart" exact>
+        <Route path="/cart" exact component={Cart}>
           <Cart />
         </Route>
       </div>
