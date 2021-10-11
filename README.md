@@ -28,7 +28,7 @@ The following necessary dependencies are required to run this app: npm i
 The following command is needed to run test: npm start
 
 # Usage
-In order to use this app, test pay now with number 4242 for full card number, cvc and date
+In order to use this app, npm start. pay now button is non functioning at the moment
 
 # Contribute
 send pull request to be reviewed 
