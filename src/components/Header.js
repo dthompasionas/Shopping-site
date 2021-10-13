@@ -14,7 +14,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/">Random Shopper</Link>
+          <Link to="/" className='home-link'>Random Shopper<i class="fas fa-tag" id='icon'></i></Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl
@@ -29,7 +29,7 @@ const Header = () => {
         </Navbar.Text>
         <Nav>
             <Dropdown alignRight>
-                <Dropdown.Toggle variant = 'success' >
+                <Dropdown.Toggle variant = 'success' className='dropcart' >
                     <FaShoppingCart color='white' fontSize='25px' />
                     <Badge>{cart.length}</Badge> 
                 </Dropdown.Toggle>

@@ -7,13 +7,12 @@ import Home from "./components/Home";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <div>
+      <Header />    
         <Route path="/" exact component={Home}>     
         </Route>
         <Route path="/cart" exact component={Cart}> 
         </Route>
-      </div>
+    
     </BrowserRouter>
   );
 }

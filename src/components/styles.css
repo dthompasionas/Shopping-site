@@ -2,6 +2,21 @@
     display: flex;
 }
 
+.home-link {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 10px;
+    transition: .5s ease ;
+    border-radius: 10px;
+}
+.home-link:hover {
+    text-decoration: none;
+    background: #28A745;
+    
+    
+}
+
 .productContainer {
     display: flex;
     width: 78%;
@@ -92,6 +107,9 @@
     margin-top: 20px;
 }
 
+#icon {
+    margin-left: 10px;
+}
 
 @media (max-width: 771px) {
     .filters {
@@ -121,4 +139,10 @@
         width: 100%;
     }
 
+}
+
+@media (max-width: 375px) {
+    .home-link {
+        font-size: 22px;
+    }
 }
