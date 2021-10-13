@@ -2,7 +2,7 @@
 
 https://github.com/dthompasionas/Shopping-site/tree/main
 
-Deployed: https://random-shopping.herokuapp.com/
+Deployed: https://random-shopper.netlify.app
 
 
 # Description
