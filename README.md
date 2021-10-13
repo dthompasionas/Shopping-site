@@ -1,6 +1,9 @@
 # Shopping-site 
 
-https://github.com//Shopping-site
+https://github.com/dthompasionas/Shopping-site/tree/main
+
+Deployed: https://random-shopping.herokuapp.com/
+
 
 # Description
 A site showing products added to cart with a checkout.
@@ -25,16 +28,16 @@ The following necessary dependencies are required to run this app: npm i
 The following command is needed to run test: npm start
 
 # Usage
-In order to use this app, test pay now with number 4242 for full card number, cvc and date
+In order to use this app, npm start. pay now button is non functioning at the moment
 
 # Contribute
 send pull request to be reviewed 
 
 # Screenshot:
 
-![](./shopping-site/src/assets/shopping-home.png)
+![](./src/assets/shopping-home.png)
 
-![](./shopping-site/src/assets/shopping-cart.png)
+![](./src/assets/shopping-cart.png)
 
 # Questions
 Contact me with any questions here:
