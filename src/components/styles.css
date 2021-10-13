@@ -102,6 +102,7 @@
     padding: 20px;
 }
 
+
 .pay-btn {
     display: flex;
     justify-content: center;
@@ -110,6 +111,17 @@
 
 #icon {
     margin-left: 10px;
+}
+
+#valid-card {
+    color: red;
+    text-align: center;
+}
+
+#thank-you {
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 @media (max-width: 771px) {
