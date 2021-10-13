@@ -18,9 +18,9 @@ const Header = () => {
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl
-            style={{ width: 500 }}
+            style={{ width: 350 }}
             placeholder="Search for product"
-            className="m-auto"
+            className="m-auto search-bar"
             onChange={(e) => productDispatch ({
               type: 'FILTER_BY_SEARCH',
               payload: e.target.value,
